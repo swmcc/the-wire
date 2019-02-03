@@ -18,9 +18,23 @@ I'll be updating this repo as I go so the README will change.
 
 I'm starting off small and working my way out.
 
+### Characters
+
+As stated above I am starting off small. So initiallty I am taking information from the entry of [wikipedia](https://en.wikipedia.org/wiki/The_Wire). I found a table of [primary characters](https://en.wikipedia.org/wiki/List_of_The_Wire_characters). A quick copy and paste onto [Google SpreadSheets](https://www.google.com/sheets/about/) with a bit of manual manipulation and hey preso. My first [data sheet](https://github.com/swmcc/the-wire/commit/a72d6c5229bebf8fa8f0590b99d60de57ddec1a4). All I need to do is to injest the information. So without further ado... lets open my first [GitHub Issue](https://github.com/swmcc/the-wire/issues/1)
+
 ## Links
 
+
+
 ## Development Info
+
+>> Ensure that you have [pipenv](https://pipenv.readthedocs.io/) installed.
+
+##### Display characters to json
+```sh
+pipenv run python app/characters.py data/characters.csv
+```
+
 
 
 
